@@ -1,0 +1,30 @@
+---
+title: "Tolocar"
+author: "compiled by Victoria Wenzelmann from https://www.appropedia.org/Tolocar"
+date: "2026-08-21"
+description: "Tolocar is an initiative that supports makers, makerspaces, local communities and organizations across Ukraine in developing practical solutions for reconstruction and resilience."
+tags: [makerspaces, mobile, reconstruction, resilience, Ukraine]
+---
+
+## Context
+Tolocar is an initiative that supports makers, makerspaces, local communities and organizations across Ukraine in developing practical solutions for reconstruction and resilience. It brings together people with technical, creative, and social skills to co-create responses to the challenges of recovery and transformation. Tolocar is about open knowledge-sharing, self-efficacy, hands-on problem-solving, shared learning and innovation. 
+
+## What Tolocar does
+###Mobile Makerspaces
+Just a few weeks after the start of the full-scale invasion of Ukraine the initiative started as a way to support both the emergency relief activities, and the development of a participatory innovation ecosystem for the socio-economic recovery of Ukraine. With a fleet of four mobile makerspaces at its core, Tolocar started to bring together experts from the fields of making, distributed manufacturing, and urban planning with civil society organizations in Ukraine. These mobile makerspaces - "Tolocars" - are converted vans that offers the possibilities of a makerspace or fablab on wheels. This means they bring the capacity of high-end manufacturing or diagnosis technologies to the point of need. But crucially they remain plugged into a world wide community of diverse domain experts who can bring their collective intelligence to bear in ways that complement conventional relief or rebuilding efforts. The aim is to enable communities to replicate some of the capabilities and so to catalyze rebuilding efforts and establish support networks. These mobile workshops quickly became symbols of adaptability and creativity in action. 
+To compile the knowledge Tolocar gathered in setting up and operating the mobile makerspaces, Tolocar published its playbook ["How to Tolocar"](https://tolocar.org/en/resources/playbook/). The playbook showcases different interpretations of what mobile makerspaces are, shares use cases and equipment lists, and introduces the different qualities of the team which have been essential to the successful implementation of the project. The PDF version can be found on the Tolocar website, but it is also available as a [living document / open edit version on Appropedia](https://www.appropedia.org/Tolocar/Playbook). 
+
+###Local Makerspaces and Maker Initiatives
+Another important component of Tolocar's activities are the support of already existing or emerging makerspaces and maker initiatives in Ukraine. For instance, through the Makers Empowerment Hubs program, Tolocar supports seven established, stationary makerspaces across the country, helping them grow into regional centers for innovation, education, and sustainable production. The makerspaces are located in Kosiv, Konotop, Truskavets, Berezhany, Stryi, Zaporizhzhia and Ivano-Frankivsk. These hubs serve as spaces where people can prototype new ideas, share expertise, and develop solutions for reconstruction from designing energy-efficient housing components to promoting circular economy practices. With the Makers Innovation Award, Tolocar awarded seven exceptional maker initiatives which create social impact. The award provided funding and training to the winners, enabling them to make their idea become reality. 
+
+### Networking and Ecosystem Development
+One of the goals of Tolocar is to expand the reach of Ukrainian makers by connecting them to national, regional, and global maker networks.
+
+For that, Tolocar supports networks like the Ukrainian Maker Association, who connect makers through community calls or offline events. Within the Co-Design program, Tolocar connected international and Ukrainian makers to work on research and development of tangible products and services which were documented on Appropedia for downloading, sharing and contributing to further development. 
+
+## What it shows for preparedness infrastructure
+
+## Sources
+
+- https://www.appropedia.org/Tolocar
+- https://tolocar.org
