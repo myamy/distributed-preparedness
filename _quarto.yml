@@ -15,20 +15,18 @@ website:
   description: "Living companion on preparedness infrastructure, offline connectivity, open hardware, and distributed manufacturing: framework, case studies, extended literature review, and recommendations."
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - href: framework.qmd
-        text: Framework
+        text: FRAMEWORK
       - href: literature-review.qmd
-        text: "Literature Review"
+        text: "LITERATURE REVIEWS
       - href: case-studies/index.qmd
-        text: "Case Studies"
+        text: "CASE STUDIES"
       - href: position-papers/index.qmd
-        text: "Position Papers"
+        text: "POSITION PAPERS"
       - href: recommendations.qmd
-        text: Recommendations
+        text: RECOMMENDATIONS
       - href: about.qmd
-        text: About
+        text: ABOUT
   page-footer:
     center: "Knowledge Base for *Distributed Preparedness* · [Reference library](https://www.zotero.org/groups/6184418/distributed_disaster_response/library)"
 
