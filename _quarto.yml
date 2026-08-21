@@ -32,10 +32,9 @@ website:
   page-footer:
     center: "Knowledge Base for *Distributed Preparedness* · [Reference library](https://www.zotero.org/groups/6184418/distributed_disaster_response/library)"
 
-format:
+format:format:
   html:
-    theme: cosmo
-    css: styles.scss
+    theme: [cosmo, styles.scss]
     toc: true
     link-external-newwindow: true
 
