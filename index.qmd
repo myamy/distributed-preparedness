@@ -66,7 +66,9 @@ Standalone contributions from experts, kept in their own voice rather than folde
 
 ::: {.band}
 Several projects are based on our understanding of Distributed Preparedness:
-- Disaster Preparedness with MaRK. A modular, offline-first **Maker Resilience Kit** giving Global Majority makerspaces locally stored open hardware designs and communication tools for community-led disaster preparedness. Funded by [Judith Neilson Foundation](https://www.judithneilsonfoundation.org/) through the [GIG Fund](https://globalinnovationgathering.org/gig-fund/).
+
+- **Disaster Preparedness with MaRK.** A modular, offline-first Maker Resilience Kit giving Global Majority makerspaces locally stored open hardware designs and communication tools for community-led disaster preparedness. Funded by [Judith Neilson Foundation](https://www.judithneilsonfoundation.org/) through the [GIG Fund](https://globalinnovationgathering.org/gig-fund/).
+
 
 Individual publications distill parts of this work for specific venues and audiences:
 
