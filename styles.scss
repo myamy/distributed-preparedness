@@ -49,8 +49,9 @@ h1, h2, h3 { letter-spacing: -0.015em; }
 }
 
 .navbar-title {
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  font-weight: 500;
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
 }
 
 .navbar .nav-link {
@@ -103,9 +104,11 @@ main.content {
 
 // ---- Section headings: centered, red rule above -----------------------
 main h2 {
-  margin-top: 4.5rem;
-  margin-bottom: 1.6rem;
+  margin-top: 7rem;
+  margin-bottom: 2.6rem;
   padding-top: 1.4rem;
+  padding-bottom: 0;
+  border-bottom: none;
   position: relative;
   font-weight: 700;
   text-align: center;
@@ -132,7 +135,7 @@ h2.eyebrow {
   color: $red;
   text-align: center;
   padding-top: 0;
-  margin-top: 4.5rem;
+  margin-top: 7rem;
   margin-bottom: 0;
 }
 
@@ -142,26 +145,24 @@ h2.eyebrow::before { display: none; }
 // an h2 introduced by an eyebrow: sits tight beneath it, no rule of its own
 // (the eyebrow is already the accent).  Use:  ## HEADING {.tight}
 main h2.tight {
-  margin-top: 0.2rem;
+  margin-top: 0.35rem;
   padding-top: 0;
 }
 
 main h2.tight::before { display: none; }
 
 // ---- Card grid --------------------------------------------------------
+main .grid {
+  row-gap: 2.6rem;
+  margin-top: 0.5rem;
+}
+
 .dp-card {
   display: block;
   height: 100%;
-  padding: 1.7rem 1.6rem;
-  border: 1px solid $line;
-  border-radius: $border-radius;
-  background: $paper;
-  transition: border-color 0.15s ease, box-shadow 0.15s ease;
-}
-
-.dp-card:hover {
-  border-color: $ink;
-  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.06);
+  padding: 0.5rem 1.2rem 1.5rem;
+  border: none;
+  background: transparent;
 }
 
 .dp-card h3 {
@@ -191,8 +192,8 @@ main h2.tight::before { display: none; }
 .band {
   background: $surface;
   border-radius: $border-radius;
-  padding: 2rem 2rem 1.6rem;
-  margin: 2rem 0;
+  padding: 2.4rem 2.4rem 2rem;
+  margin: 0.5rem 0 2rem;
 }
 
 .band > h2,
