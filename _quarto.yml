@@ -4,7 +4,7 @@ project:
   render:
     - index.qmd
     - framework.qmd
-    - literature-review.qmd
+    - literature-reviews/
     - recommendations.qmd
     - about.qmd
     - case-studies/
@@ -16,8 +16,8 @@ website:
   navbar:
     left:
       - href: framework.qmd
-        text: FRAMEWORK
-      - href: literature-review.qmd
+        text: FRAMEWORK      
+      - href: literature-reviews/index.qmd
         text: "LITERATURE REVIEWS"
       - href: case-studies/index.qmd
         text: "CASE STUDIES"
