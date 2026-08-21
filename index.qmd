@@ -40,7 +40,7 @@ Actionable guidance by audience, e.g. policymakers, humanitarian actors, makersp
 
 ::: {.g-col-12 .g-col-md-4}
 ::: {.dp-card}
-### [LITERATURE REVIEWS](literature-review.qmd)
+### [Literature Reviews](literature-reviews/index.qmd)
 Our full reviews on different topics: offline and decentralized connectivity, distributed manufacturing, and disaster preparedness research, on their own terms and at their intersection.
 :::
 :::
