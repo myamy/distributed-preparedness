@@ -11,8 +11,8 @@ When disaster strikes, supply chains break down, connectivity drops, and electri
 
 What is missing is not evidence that this works, but [the infrastructure that makes it reliable *before* a crisis hits]{.hl}: knowledge and capability held locally, usable when centralized systems fail, shared and co-constructed globally when they have not. This site is the primary, continuously growing home for that work: the framework, the full literature review, documented case studies, and recommendations for the communities and institutions who can act on them.
 
-### KNOWLEDGE HUB {.eyebrow}
-## FRAMEWORK | LITERATURE | RECOMMENDATIONS {.tight}
+### DISTRIBUTED PREPAREDNESS {.eyebrow}
+## FRAMEWORK & RECOMMENDATIONS {.tight}
 
 ::: {.grid}
 
@@ -22,6 +22,9 @@ What is missing is not evidence that this works, but [the infrastructure that ma
 The core argument: preparedness as distributed infrastructure rather than stockpiling.
 :::
 :::
+
+### KNOWLEDGE HUB {.eyebrow}
+## LITERATURE | CASE STUDIES | POSITION PAPERS {.tight}
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.dp-card}
