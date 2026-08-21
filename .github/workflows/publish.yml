@@ -3,10 +3,12 @@ name: Publish site
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "0 6 * * *"   # refresh the bibliography from Zotero daily even with no other pushes
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -20,6 +22,48 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Sync bibliography from Zotero
+        env:
+          ZOTERO_API_KEY: ${{ secrets.ZOTERO_API_KEY }}
+        run: |
+          set -euo pipefail
+          GROUP_ID="6184418"
+          LIMIT=100
+          START=0
+          TOTAL=""
+          : > references.bib
+          while true; do
+            headers=$(mktemp)
+            curl -sfL -D "$headers" \
+              -H "Zotero-API-Key: ${ZOTERO_API_KEY}" \
+              "https://api.zotero.org/groups/${GROUP_ID}/items?format=bibtex&limit=${LIMIT}&start=${START}" \
+              -o /tmp/batch.bib
+            if [ -z "$TOTAL" ]; then
+              TOTAL=$(grep -i '^Total-Results:' "$headers" | tr -d '\r' | awk '{print $2}')
+              echo "Total items reported by Zotero: ${TOTAL:-unknown}"
+            fi
+            cat /tmp/batch.bib >> references.bib
+            echo "" >> references.bib
+            rm -f "$headers"
+            START=$((START + LIMIT))
+            if [ -z "${TOTAL:-}" ] || [ "$START" -ge "${TOTAL:-0}" ]; then
+              break
+            fi
+          done
+          echo "Bibliography entries written: $(grep -c '^@' references.bib || true)"
+
+      - name: Commit updated bibliography if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- references.bib; then
+            git add references.bib
+            git commit -m "Auto-update bibliography from Zotero"
+            git push
+          else
+            echo "No bibliography changes."
+          fi
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
