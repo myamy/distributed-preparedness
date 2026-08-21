@@ -1,0 +1,27 @@
+---
+title: "About"
+---
+
+## The project
+
+This site accompanies "Preparedness as Infrastructure: A Framework for Open Hardware, Offline Knowledge and Distributed Manufacturing," submitted to the Journal of Open Hardware. It is maintained as a living resource and expected to keep growing after the paper's publication.
+
+## Authors & contributors
+
+*List to be completed — see the paper's author list for the core group.*
+
+## Funding
+
+*Funder acknowledgment placeholder (OLI).*
+
+## Reference library
+
+The full, shared reference library for this project is maintained on Zotero: [Distributed Disaster Response](https://www.zotero.org/groups/6184418/distributed_disaster_response/library).
+
+## License
+
+*To be decided.* Content license and code license will likely differ (e.g. CC BY 4.0 for text, MIT for site code) — see the repository's LICENSE file once added.
+
+## Citing this resource
+
+*Citation format to be added once a DOI or stable release is available.*

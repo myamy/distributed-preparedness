@@ -1,0 +1,19 @@
+---
+title: "Distributed Preparedness"
+subtitle: "A living companion to *Preparedness as Infrastructure* (Journal of Open Hardware)"
+---
+
+## About this site
+
+This site is the open, continuously updated companion to a peer-reviewed paper submitted to the **Journal of Open Hardware (JoOH)**. The journal article carries the peer-reviewed core: the research question, a condensed literature review, the framework, and headline recommendations. Everything that doesn't fit inside a 6,000-word journal article — full case studies, standalone position papers, the extended literature review, and audience-specific recommendations — lives here, and keeps growing after the paper is published.
+
+> **Status:** structure only — content is being added section by section. See [Contributing](https://github.com/REPLACE-WITH-ORG/distributed-preparedness/blob/main/CONTRIBUTING.md) if you're one of the co-authors adding material.
+
+## Start here
+
+- **[Framework](framework.qmd)** — the core argument: preparedness as distributed infrastructure rather than stockpiling.
+- **[Literature Review](literature-review.qmd)** — the full review behind the paper's condensed version.
+- **[Case Studies](case-studies/index.qmd)** — documented examples of makerspaces, distributed manufacturing, and offline connectivity in disaster response and preparedness.
+- **[Position Papers](position-papers/index.qmd)** — standalone contributions from workshop participants.
+- **[Recommendations](recommendations.qmd)** — actionable guidance for policymakers, humanitarian actors, makerspaces, and connectivity providers.
+- **[About](about.qmd)** — authors, funder, license, and how to cite this project.

@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - framework.qmd
+    - literature-review.qmd
+    - recommendations.qmd
+    - about.qmd
+    - case-studies/
+    - position-papers/
+
+website:
+  title: "Distributed Preparedness"
+  description: "Living companion on preparedness infrastructure, offline connectivity, open hardware, and distributed manufacturing: framework, case studies, extended literature review, and recommendations."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: framework.qmd
+        text: Framework
+      - href: literature-review.qmd
+        text: "Literature Review"
+      - href: case-studies/index.qmd
+        text: "Case Studies"
+      - href: position-papers/index.qmd
+        text: "Position Papers"
+      - href: recommendations.qmd
+        text: Recommendations
+      - href: about.qmd
+        text: About
+  page-footer:
+    center: "Part of the *Preparedness as Infrastructure* research project (JoOH) · [Reference library](https://www.zotero.org/groups/6184418/distributed_disaster_response/library)"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.scss
+    toc: true
+    link-external-newwindow: true
+
+bibliography: references.bib

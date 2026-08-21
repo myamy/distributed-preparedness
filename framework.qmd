@@ -1,0 +1,12 @@
+---
+title: "Framework"
+---
+
+<!--
+Placeholder. This page carries the full version of the framework introduced in the
+JoOH paper (Section 4, "Discussion & Findings" in the outline) — foundations,
+applicability, limitations, governance, and funding implications, at whatever
+length the argument needs, unconstrained by the paper's word limit.
+-->
+
+*Content in progress.*

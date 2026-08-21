@@ -1,0 +1,14 @@
+---
+title: "Recommendations"
+---
+
+<!--
+Placeholder. Break recommendations out by audience, each with enough specificity
+to act on:
+- Policymakers
+- Humanitarian actors
+- Makerspaces
+- Connectivity providers (online and offline)
+-->
+
+*Content in progress.*
