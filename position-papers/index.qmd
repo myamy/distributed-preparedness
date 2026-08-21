@@ -1,0 +1,12 @@
+---
+title: "Position Papers"
+listing:
+  contents: "."
+  type: default
+  sort: "date desc"
+  fields: [title, author, date, description]
+page-layout: full
+title-block-banner: false
+---
+
+Standalone contributions from workshop participants, kept as authored rather than folded into the main text. See [Contributing](https://github.com/myamy/distributed-preparedness/blob/main/CONTRIBUTING.md) for how to add one.
