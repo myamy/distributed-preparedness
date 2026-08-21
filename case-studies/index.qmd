@@ -1,0 +1,12 @@
+---
+title: "Case Studies"
+listing:
+  contents: "."
+  type: default
+  sort: "date desc"
+  fields: [title, author, date, description]
+page-layout: full
+title-block-banner: false
+---
+
+Documented examples of makerspaces, distributed manufacturing, and offline connectivity in disaster response and preparedness. See [Contributing](https://github.com/myamy/distributed-preparedness/blob/main/CONTRIBUTING.md) for how to add one.
