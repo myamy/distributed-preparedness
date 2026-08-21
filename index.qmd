@@ -7,7 +7,7 @@ subtitle: "A living companion to *Preparedness as Infrastructure* (Journal of Op
 
 This site is the open, continuously updated companion to a peer-reviewed paper submitted to the **Journal of Open Hardware (JoOH)**. The journal article carries the peer-reviewed core: the research question, a condensed literature review, the framework, and headline recommendations. Everything that doesn't fit inside a 6,000-word journal article — full case studies, standalone position papers, the extended literature review, and audience-specific recommendations — lives here, and keeps growing after the paper is published.
 
-> **Status:** structure only — content is being added section by section. See [Contributing](https://github.com/REPLACE-WITH-ORG/distributed-preparedness/blob/main/CONTRIBUTING.md) if you're one of the co-authors adding material.
+> **Status:** structure only — content is being added section by section. See [Contributing](https://github.com/myamy/distributed-preparedness/blob/main/CONTRIBUTING.md) if you're one of the co-authors adding material.
 
 ## Start here
 
