@@ -1,0 +1,6 @@
+---
+title: "Makerspaces and distributed manufacturing in disaster response and preparedness"
+author: "Victoria Wenzelmann"
+date: "2026-08-21"
+description: "Literature Review"
+---
