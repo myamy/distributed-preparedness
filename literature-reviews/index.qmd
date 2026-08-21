@@ -1,0 +1,12 @@
+---
+title: "Literature Reviews"
+listing:
+  contents: "."
+  type: default
+  sort: "date desc"
+  fields: [title, author, date, description]
+page-layout: full
+title-block-banner: false
+---
+
+Full reviews on the fields this work draws on: offline and decentralized connectivity, distributed manufacturing, and disaster preparedness research, on their own terms and at their intersection. See [Contributing](https://github.com/myamy/distributed-preparedness/blob/main/CONTRIBUTING.md) for how to add one.
