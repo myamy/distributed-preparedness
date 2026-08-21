@@ -4,15 +4,15 @@ subtitle: "AN OPEN KNOWLEDGE BASE ON PREPAREDNESS INFRASTRUCTURE, OFFLINE CONNEC
 toc: false
 ---
 
-### MAKERSPACES CONNECT & MANUFACTURE
-## WHEN DISASTER STRIKES
+### MAKERSPACES CONNECT & MANUFACTURE {.eyebrow}
+## WHEN DISASTER STRIKES {.tight}
 
 When disaster strikes, supply chains break down, connectivity drops, and electricity becomes unreliable, conditions that communities already living with intermittent services experience even without a disaster. Makerspaces and distributed manufacturing networks have repeatedly shown they can operate under exactly these conditions: producing and repairing what is needed, sharing designs across borders, and keeping communities supplied when centralized systems cannot reach them.
 
 What is missing is not evidence that this works, but [the infrastructure that makes it reliable *before* a crisis hits]{.hl}: knowledge and capability held locally, usable when centralized systems fail, shared and co-constructed globally when they have not. This site is the primary, continuously growing home for that work: the framework, the full literature review, documented case studies, and recommendations for the communities and institutions who can act on them.
 
-### KNOWLEDGE HUB
-## FRAMEWORK | LITERATURE | RECOMMENDATIONS 
+### KNOWLEDGE HUB {.eyebrow}
+## FRAMEWORK | LITERATURE | RECOMMENDATIONS {.tight}
 
 ::: {.grid}
 
@@ -53,14 +53,18 @@ Actionable guidance by audience, e.g. policymakers, humanitarian actors, makersp
 
 :::
 
-## OUR PUBLICATIONS
+### DRAWN FROM THIS WORK {.eyebrow}
+## PROJECTS & PUBLICATIONS {.tight}
 
 ::: {.band}
+Several projects are based on our understanding of Distributed Preparedness:
+- Disaster Preparedness with MaRK. A modular, offline-first **Maker Resilience Kit** giving Global Majority makerspaces locally stored open hardware designs and communication tools for community-led disaster preparedness. Funded by [Judith Neilson Foundation](https://www.judithneilsonfoundation.org/) through the [GIG Fund](https://globalinnovationgathering.org/gig-fund/).
+
 Individual publications distill parts of this work for specific venues and audiences:
 
 - **"Preparedness as Infrastructure: A Framework for Open Hardware, Offline Knowledge and Distributed Manufacturing,"** submitted to the *Journal of Open Hardware* — a peer-reviewed, condensed statement of the framework, constrained to 6,000 words.
 
-Further publications are expected as the work develops, and will be added here as they are submitted.
+*Further publications are expected as the work develops, and will be added here as they are submitted.*
 :::
 
 This is a living resource maintained by the project's contributors, and it grows as new case studies are documented and new publications draw on it. See the [Contributing guide](https://github.com/myamy/distributed-preparedness/blob/main/CONTRIBUTING.md) if you would like to add one, or [About](about.qmd) for contributors, funding, and how to cite this project.
