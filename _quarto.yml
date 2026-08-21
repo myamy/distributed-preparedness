@@ -18,7 +18,7 @@ website:
       - href: framework.qmd
         text: FRAMEWORK
       - href: literature-review.qmd
-        text: "LITERATURE REVIEWS
+        text: "LITERATURE REVIEWS"
       - href: case-studies/index.qmd
         text: "CASE STUDIES"
       - href: position-papers/index.qmd
