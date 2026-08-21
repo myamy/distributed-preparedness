@@ -1,7 +1,5 @@
 /*-- scss:defaults --*/
-
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
-
 // ---- Palette ----------------------------------------------------------
 $ink:        #16181c;   // near-black text
 $muted:      #5f646b;   // secondary text
@@ -10,7 +8,6 @@ $surface:    #f4f3f0;   // tinted band
 $line:       #d0ceca;   // warm hairline
 $red:        #c1272d;   // accent
 $red-dark:   #9c1f24;
-
 $primary:      $ink;
 $link-color:   $ink;
 $body-color:   $ink;
@@ -18,53 +15,41 @@ $body-bg:      $paper;
 $navbar-bg:    $paper;
 $navbar-fg:    $ink;
 $footer-bg:    $paper;
-
 $font-family-sans-serif: "Barlow", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 $headings-font-family:   $font-family-sans-serif;
 $headings-font-weight:   700;
-
 $h1-font-size: 3.1rem;
 $h2-font-size: 1.9rem;
 $h3-font-size: 1.15rem;
-
 $border-radius: 4px;
-
 /*-- scss:rules --*/
-
 body {
   line-height: 1.7;
   font-size: 1.05rem;
   -webkit-font-smoothing: antialiased;
 }
-
 p { margin-bottom: 1.4rem; }
-
 h1, h2, h3 { letter-spacing: -0.015em; }
-
 // ---- Navbar -----------------------------------------------------------
 .navbar {
   border-bottom: 1px solid $line;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
 .navbar-title {
   font-weight: 500;
   font-size: 1.05rem;
   letter-spacing: 0.04em;
 }
-
 .navbar .nav-link {
   font-size: 0.95rem;
   font-weight: 500;
   color: $muted !important;
 }
-
 .navbar .nav-link:hover,
 .navbar .nav-link.active {
   color: $ink !important;
 }
-
 // ---- Hero (Quarto title block) ----------------------------------------
 #title-block-header.quarto-title-block.default {
   margin-bottom: 1rem;
@@ -72,17 +57,21 @@ h1, h2, h3 { letter-spacing: -0.015em; }
   padding-top: 1.5rem;
   border-bottom: 1px solid $line;
 }
-
 #title-block-header .title {
-  font-size: 3.1rem;
+  font-size: 2.5rem;
   font-weight: 700;
+  line-height: 1.12;
+  max-width: 28ch;
+}
+
+body.home #title-block-header .title {
+  font-size: 3.1rem;
   line-height: 1.08;
   max-width: 20ch;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-
 #title-block-header .subtitle {
   font-size: 1.05rem;
   font-weight: 400;
@@ -90,41 +79,53 @@ h1, h2, h3 { letter-spacing: -0.015em; }
   line-height: 1.6;
   letter-spacing: 0.02em;
   max-width: 62ch;
+  margin-top: 1rem;
+}
+
+body.home #title-block-header .subtitle {
   margin: 1.2rem auto 0;
   text-align: center;
 }
-
 // ---- Centered content column ------------------------------------------
 main.content {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center
 }
 
+// centred body text on the home page only
+body.home main.content { text-align: center; }
 // ---- Section headings: centered, red rule above -----------------------
 main h2 {
-  margin-top: 7rem;
-  margin-bottom: 2.6rem;
-  padding-top: 1.4rem;
+  margin-top: 4rem;
+  margin-bottom: 1.6rem;
+  padding-top: 1.2rem;
   padding-bottom: 0;
   border-bottom: none;
   position: relative;
   font-weight: 700;
-  text-align: center;
 }
 
+body.home main h2 {
+  margin-top: 7rem;
+  margin-bottom: 2.6rem;
+  padding-top: 1.4rem;
+  text-align: center;
+}
 main h2::before {
   content: "";
   position: absolute;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
   width: 44px;
   height: 3px;
   background: $red;
 }
 
+body.home main h2::before {
+  left: 50%;
+  transform: translateX(-50%);
+}
 // small uppercase label above a heading:  ### Label {.eyebrow}
 h3.eyebrow,
 h2.eyebrow {
@@ -133,30 +134,32 @@ h2.eyebrow {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: $red;
-  text-align: center;
   padding-top: 0;
-  margin-top: 7rem;
+  margin-top: 4rem;
   margin-bottom: 0;
 }
 
+body.home h3.eyebrow,
+body.home h2.eyebrow {
+  text-align: center;
+  margin-top: 7rem;
+}
 h3.eyebrow::before,
 h2.eyebrow::before { display: none; }
-
 // an h2 introduced by an eyebrow: sits tight beneath it, no rule of its own
 // (the eyebrow is already the accent).  Use:  ## HEADING {.tight}
-main h2.tight {
+main h2.tight,
+body.home main h2.tight {
   margin-top: 0.35rem;
   padding-top: 0;
 }
-
-main h2.tight::before { display: none; }
-
+main h2.tight::before,
+body.home main h2.tight::before { display: none; }
 // ---- Card grid --------------------------------------------------------
 main .grid {
   row-gap: 2.6rem;
   margin-top: 0.5rem;
 }
-
 .dp-card {
   display: block;
   height: 100%;
@@ -164,30 +167,24 @@ main .grid {
   border: none;
   background: transparent;
 }
-
 .dp-card h3 {
   font-size: 1.15rem;
   font-weight: 700;
   margin: 0 0 0.6rem 0;
   padding-top: 0;
 }
-
 .dp-card h3::before { display: none; }
-
 .dp-card h3 a {
   text-decoration: none;
   color: $ink;
 }
-
 .dp-card h3 a:hover { color: $red; }
-
 .dp-card p {
   font-size: 0.97rem;
   color: $muted;
   margin: 0;
   line-height: 1.6;
 }
-
 // ---- Tinted band ------------------------------------------------------
 .band {
   background: $surface;
@@ -195,11 +192,9 @@ main .grid {
   padding: 2.4rem 2.4rem 2rem;
   margin: 0.5rem 0 2rem;
 }
-
 .band > h2,
 .band > h3 { margin-top: 0; padding-top: 0; }
 .band > h2::before { display: none; }
-
 // ---- Links & emphasis -------------------------------------------------
 main a {
   color: $ink;
@@ -207,31 +202,25 @@ main a {
   text-decoration-thickness: 1.5px;
   text-underline-offset: 3px;
 }
-
 main a:hover { color: $red; }
-
 .hl {
   color: $red;
   font-weight: 600;
 }
-
 blockquote {
   border-left: 3px solid $red;
   padding-left: 1.2rem;
   color: $muted;
   font-style: normal;
 }
-
 // ---- Listings ---------------------------------------------------------
 .quarto-listing .listing-item {
   border-bottom: 1px solid $line;
   padding: 1.2rem 0;
 }
-
 .band,
 main ul,
 main ol { text-align: left; }
-
 // ---- Footer -----------------------------------------------------------
 .page-footer {
   border-top: 1px solid $line;
@@ -240,7 +229,6 @@ main ol { text-align: left; }
   padding-top: 1.6rem;
   padding-bottom: 1.6rem;
 }
-
 code {
   background-color: rgba(193, 39, 45, 0.07);
   color: $red-dark;
