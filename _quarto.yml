@@ -30,7 +30,7 @@ website:
       - href: about.qmd
         text: About
   page-footer:
-    center: "Part of the *Preparedness as Infrastructure* research project (JoOH) · [Reference library](https://www.zotero.org/groups/6184418/distributed_disaster_response/library)"
+    center: "Knowledge Base for *Distributed Preparedness* · [Reference library](https://www.zotero.org/groups/6184418/distributed_disaster_response/library)"
 
 format:
   html:
