@@ -23,34 +23,35 @@ The core argument: preparedness as distributed infrastructure rather than stockp
 :::
 :::
 
+::: {.g-col-12 .g-col-md-6}
+::: {.dp-card}
+### [RECOMMENDATIONS](recommendations.qmd)
+Actionable guidance by audience, e.g. policymakers, humanitarian actors, makerspaces, and connectivity providers — specific enough to act on.
+:::
+:::
+
+
 ### KNOWLEDGE HUB {.eyebrow}
 ## LITERATURE | CASE STUDIES | POSITION PAPERS {.tight}
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-4}
 ::: {.dp-card}
 ### [LITERATURE REVIEWS](literature-review.qmd)
 Our full reviews on different topics: offline and decentralized connectivity, distributed manufacturing, and disaster preparedness research, on their own terms and at their intersection.
 :::
 :::
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-4}
 ::: {.dp-card}
 ### [CASE STUDIES](case-studies/index.qmd)
 Documented examples of makerspaces, distributed manufacturing, and offline connectivity in disaster response and preparedness, with enough detail to learn from rather than only to cite.
 :::
 :::
 
-::: {.g-col-12 .g-col-md-6}
+::: {.g-col-12 .g-col-md-4}
 ::: {.dp-card}
 ### [POSITION PAPERS](position-papers/index.qmd)
 Standalone contributions from experts, kept in their own voice rather than folded into a single narrative.
-:::
-:::
-
-::: {.g-col-12}
-::: {.dp-card}
-### [RECOMMENDATIONS](recommendations.qmd)
-Actionable guidance by audience, e.g. policymakers, humanitarian actors, makerspaces, and connectivity providers — specific enough to act on.
 :::
 :::
 
