@@ -20,6 +20,8 @@ What is missing is not evidence that this works, but the infrastructure that mak
 ## Publications drawn from this work
 
 Individual publications distill parts of this work for specific venues and audiences: 
-- **"Preparedness as Infrastructure: A Framework for Open Hardware, Offline Knowledge and Distributed Manufacturing,"** submitted to the *Journal of Open Hardware* — a peer-reviewed, condensed statement of the framework, constrained to 6,000 words. Further publications are expected as the work develops.
+- **"Preparedness as Infrastructure: A Framework for Open Hardware, Offline Knowledge and Distributed Manufacturing,"** submitted to the *Journal of Open Hardware* — a peer-reviewed, condensed statement of the framework, constrained to 6,000 words. 
+
+Further publications are expected as the work develops.
 
 This is a living resource maintained by the project's contributors, and it grows as new case studies are documented and new publications draw on it. See the [Contributing guide](https://github.com/myamy/distributed-preparedness/blob/main/CONTRIBUTING.md) if you would like to add one, or [About](about.qmd) for contributors, funding, and how to cite this project.
