@@ -9,17 +9,17 @@ This is the primary, continuously growing knowledge base for the project — not
 ## Repository structure
 
 ```
-_quarto.yml           site configuration (navigation, theme, bibliography)
-index.qmd             home page
-framework.qmd         the framework (placeholder)
-literature-review.qmd extended literature review (placeholder)
-recommendations.qmd   audience-specific recommendations (placeholder)
-about.qmd             authors, funding, license, citation info
+_quarto.yml            site configuration (navigation, theme, bibliography)
+index.qmd              home page
+framework.qmd          the framework (placeholder)
+recommendations.qmd    audience-specific recommendations (placeholder)
+about.qmd              contributors, funding, license, citation info
+literature-reviews/    one subfolder per review (see CONTRIBUTING.md)
 case-studies/          one subfolder per case study (see CONTRIBUTING.md)
 position-papers/       one subfolder per position paper (see CONTRIBUTING.md)
-references.bib         shared bibliography (sync target for the Zotero group library)
-styles.scss            minor theme overrides
-.github/workflows/      GitHub Actions workflow that builds and publishes the site
+references.bib         bibliography — auto-generated daily from the Zotero group library, do not edit by hand
+styles.scss            theme (palette, typography, layout)
+.github/workflows/     GitHub Actions workflow: syncs the bibliography, builds and publishes the site
 ```
 
 ## Adding content
