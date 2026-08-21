@@ -28,7 +28,7 @@ website:
       - href: about.qmd
         text: ABOUT
   page-footer:
-    center: "Knowledge Base for *Distributed Preparedness* · [Reference library](https://www.zotero.org/groups/6184418/distributed_disaster_response/library)"
+    center: "Knowledge Base for *Distributed Preparedness* first established in 2026 with support from the [Offline Internet Consortium](https://www.offlineinternet.org/)· [Reference library](https://www.zotero.org/groups/6184418/distributed_disaster_response/library)"
 
 format:
   html:
