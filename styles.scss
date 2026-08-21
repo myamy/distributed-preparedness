@@ -227,6 +227,10 @@ blockquote {
   padding: 1.2rem 0;
 }
 
+.band,
+main ul,
+main ol { text-align: left; }
+
 // ---- Footer -----------------------------------------------------------
 .page-footer {
   border-top: 1px solid $line;
