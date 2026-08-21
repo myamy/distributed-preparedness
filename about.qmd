@@ -4,7 +4,7 @@ title: "About"
 
 ## The project
 
-This site accompanies "Preparedness as Infrastructure: A Framework for Open Hardware, Offline Knowledge and Distributed Manufacturing," submitted to the Journal of Open Hardware. It is maintained as a living resource and expected to keep growing after the paper's publication.
+This is the living knowledge base for an ongoing body of work on preparedness infrastructure, offline connectivity, open hardware, and distributed manufacturing. The first publication drawn from it, "Preparedness as Infrastructure: A Framework for Open Hardware, Offline Knowledge and Distributed Manufacturing," is submitted to the Journal of Open Hardware. Further publications are expected to follow as the work develops, each distilling part of this resource for a specific venue or audience.
 
 ## Authors & contributors
 
