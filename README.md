@@ -2,9 +2,9 @@
 
 Living companion on preparedness infrastructure, offline connectivity, open hardware, and distributed manufacturing: framework, case studies, extended literature review, and recommendations.
 
-This is the open, continuously updated companion to a paper submitted to the **Journal of Open Hardware (JoOH)**. The journal article carries the peer-reviewed core; this site carries everything that doesn't fit inside its word limit, and keeps growing afterward.
+This is the primary, continuously growing knowledge base for the project — not a companion to a single paper. The first publication drawn from it is a peer-reviewed paper submitted to the **Journal of Open Hardware (JoOH)**, distilling the framework into 6,000 words; further publications are expected to follow, each drawing on a different slice of this resource.
 
-**Live site:** `https://<your-username-or-org>.github.io/distributed-preparedness/` (active once GitHub Pages is enabled — see below).
+**Live site:** `https://myamy.github.io/distributed-preparedness/`
 
 ## Repository structure
 
