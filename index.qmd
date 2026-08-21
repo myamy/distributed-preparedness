@@ -11,49 +11,49 @@ When disaster strikes, supply chains break down, connectivity drops, and electri
 
 What is missing is not evidence that this works, but [the infrastructure that makes it reliable *before* a crisis hits]{.hl}: knowledge and capability held locally, usable when centralized systems fail, shared and co-constructed globally when they have not. This site is the primary, continuously growing home for that work: the framework, the full literature review, documented case studies, and recommendations for the communities and institutions who can act on them.
 
-### START HERE
-## FRAMEWORK & LEARNING 
+### KNOWLEDGE HUB
+## FRAMEWORK | LITERATURE | RECOMMENDATIONS 
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.dp-card}
-### [Framework](framework.qmd)
+### [FRAMEWORK](framework.qmd)
 The core argument: preparedness as distributed infrastructure rather than stockpiling.
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.dp-card}
-### [Literature Review](literature-review.qmd)
+### [LITERATURE REVIEWS](literature-review.qmd)
 Our full reviews on different topics: offline and decentralized connectivity, distributed manufacturing, and disaster preparedness research, on their own terms and at their intersection.
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.dp-card}
-### [Case Studies](case-studies/index.qmd)
+### [CASE STUDIES](case-studies/index.qmd)
 Documented examples of makerspaces, distributed manufacturing, and offline connectivity in disaster response and preparedness, with enough detail to learn from rather than only to cite.
 :::
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.dp-card}
-### [Position Papers](position-papers/index.qmd)
+### [POSITION PAPERS](position-papers/index.qmd)
 Standalone contributions from experts, kept in their own voice rather than folded into a single narrative.
 :::
 :::
 
 ::: {.g-col-12}
 ::: {.dp-card}
-### [Recommendations](recommendations.qmd)
+### [RECOMMENDATIONS](recommendations.qmd)
 Actionable guidance by audience, e.g. policymakers, humanitarian actors, makerspaces, and connectivity providers — specific enough to act on.
 :::
 :::
 
 :::
 
-## Publications drawn from this work
+## OUR PUBLICATIONS
 
 ::: {.band}
 Individual publications distill parts of this work for specific venues and audiences:
