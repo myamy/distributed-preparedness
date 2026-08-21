@@ -3,13 +3,13 @@ title: "Distributed Preparedness"
 subtitle: "An open knowledge base on preparedness infrastructure, offline connectivity, open hardware, and distributed manufacturing"
 ---
 
-## What this is
+## Prepare for Disasters
 
 When disaster strikes, supply chains break down, connectivity drops, and electricity becomes unreliable, conditions that communities already living with intermittent services experience even without a disaster. Makerspaces and distributed manufacturing networks have repeatedly shown they can operate under exactly these conditions: producing and repairing what is needed, sharing designs across borders, and keeping communities supplied when centralized systems cannot reach them.
 
 What is missing is not evidence that this works, but the infrastructure that makes it reliable *before* a crisis hits: knowledge and capability held locally, usable when centralized systems fail, shared and co-constructed globally when they have not. This site is the primary, continuously growing home for that work: the framework, the full literature review, documented case studies, and recommendations for the communities and institutions who can act on them. It keeps growing as new case studies are documented and the framework itself is tested and refined.
 
-## Start here
+## Ressources
 
 - **[Framework](framework.qmd)** — the core argument: preparedness as distributed infrastructure rather than stockpiling.
 - **[Literature Review](literature-review.qmd)** — our full reviews on different topics: offline and decentralized connectivity, distributed manufacturing, and disaster preparedness research, on their own terms and at their intersection.
@@ -20,8 +20,11 @@ What is missing is not evidence that this works, but the infrastructure that mak
 ## Publications drawn from this work
 
 Individual publications distill parts of this work for specific venues and audiences: 
-- **"Preparedness as Infrastructure: A Framework for Open Hardware, Offline Knowledge and Distributed Manufacturing,"** submitted to the *Journal of Open Hardware* — a peer-reviewed, condensed statement of the framework, constrained to 6,000 words. 
+
+- **"Preparedness as Infrastructure: A Framework for Open Hardware, Offline Knowledge and Distributed Manufacturing,"** submitted to the *Journal of Open Hardware* — a peer-reviewed, condensed statement of the framework. 
 
 Further publications are expected as the work develops.
+
+
 
 This is a living resource maintained by the project's contributors, and it grows as new case studies are documented and new publications draw on it. See the [Contributing guide](https://github.com/myamy/distributed-preparedness/blob/main/CONTRIBUTING.md) if you would like to add one, or [About](about.qmd) for contributors, funding, and how to cite this project.
